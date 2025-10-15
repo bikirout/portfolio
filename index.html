@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikram | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#hero" class="logo">Bikram 
+              | portfolio</a>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+          <video src="./assets/bg.mp4" autoplay muted loop></video>
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Bikram Routh</span></h1>
+                <p>A Passionate Web Developer & Designer</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+            
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>My Skills 💻</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="hidden">
+             <h2>Education 🎓</h2>
+             <div class="education-container">
+                <div class="education-item">
+                    <h3>Kalyani Government Engineering College</h3>
+                    <p><strong>Degree:</strong> Bachelor of Technology in Computer Science and Engineering</p>
+                    <p><strong>Years:</strong> 2022 - 2026</p>
+                    <p><strong>CGPA:</strong> 6.92 till 6th semester</p> 
+                    <p>B.Tech in Computer Science and Engineering from Kalyani Government Engineering College, with a focus on software development, algorithms, and modern web technologies.</p>
+                </div>
+                <div class="education-item">
+                    <h3>Pasang High School</h3>
+                    <p><strong>Stream:</strong> Science</p>
+                    <p><strong>Years:</strong> 2020 - 2022</p>
+                  <p><strong>Marks:</strong> 81%</p>    
+                    <p>Completed higher secondary education in Science from Pasang High School, with a strong focus on physics, chemistry, and mathematics.</p>
+                </div>
+             </div>
+        </section>
+
+        <section id="projects" class="hidden">
+            <h2>My Projects 🚀</h2>
+            <div class="project-container">
+  
+                <div class="project-card">
+                    <img src="./assets/project 1.png" alt="Project 1 Screenshot">
+                    <h3>Portfolio </h3>
+                    <p>A personal portfolio website built using HTML, CSS, and JavaScript to showcase my projects, skills, and achievements with a responsive and modern design.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/333/fff?text=Project+Three" alt="Project Three Screenshot">
+                    <h3>Project Three Title</h3>
+                    <p>A short, compelling description of your project. Mention the technologies used (e.g., Python, Flask).</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="hidden">
+            <h2>Get In Touch ✉️</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="socials">
+            <a href="https://github.com/bikirout" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bikram-rout-b25bb7253/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            
+        </div>
+        <p>&copy; 2025 Bikram.portfilo All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
